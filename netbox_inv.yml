@@ -2,3 +2,7 @@
 plugin: netbox 
 api_endpoint: http://https://nsns6575.cloud.netboxapp.com/api/dcim/devices/
 token: c3b81627234681223d17997965130b4e7daa09d5
+validate_certs: False
+config_context: False
+group_by: 
+ - device_roles
